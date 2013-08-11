@@ -4,7 +4,7 @@
 	<title>不忘初心，方得始终。</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta property="wb:webmaster" content="9471e8063cf6949a" />
-<link rel="shortcut icon" href="http://lovejiani.duapp.com/favicon.ico">
+    <link rel="shortcut icon" href="http://lovejiani.duapp.com/favicon.ico">
 <!--
 
              Alizee - Moi Lolita 
@@ -50,28 +50,18 @@ https://github.com/kawaiiushio/lovejiani
 -->
 	<style type="text/css">
 		@font-face {
-			font-family: digit;a {text-decoration:none}
+			font-family: digit;
 			src: url('digital-7_mono.ttf') format("truetype");
 		}
 	</style>
+    <style type="text/css">
+			a:link,a:visited{text-decoration:none;}
+		</style>
 	<link href="css/default.css" type="text/css" rel="stylesheet">
-	<style type="text/css">
-	a:link {
-	text-decoration: none;
-}
-a:visited {
-	text-decoration: none;
-}
-a:hover {
-	text-decoration: none;
-}
-a:active {
-	text-decoration: none;
-}
-    </style>
-	<script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/garden.js"></script>
-    <script type="text/javascript" src="js/functions.js"></script>
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/garden.js"></script>
+    <script type="text/javascript" src="./js/functions.js"></script>
+	<script type="text/javascript" src="./console.js"></script>
 </head>
 
 <body>
@@ -139,7 +129,7 @@ a:active {
 		if (!document.createElement('canvas').getContext) {
 			var msg = document.createElement("div");
 			msg.id = "errorMsg";
-			msg.innerHTML = "❤  您的浏览器不支持HTML5技术<br/>推荐使用 Chrome 浏览器 喵~ ＞▽＜ "; 
+			msg.innerHTML = "❤  您的浏览器不支持HTML5技术<br/>推荐使用 Chrome/Firefox/Opera 浏览器 喵~ ＞▽＜ "; 
 			document.body.appendChild(msg);
 			$("#code").css("display", "none")
 			$("#copyright").css("position", "absolute");
