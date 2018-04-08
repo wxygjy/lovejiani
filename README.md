@@ -1,3 +1,2 @@
 ﻿❤不忘初心，方得始终。
-
-http://lovejiani.com/
+www.xn--jprp75bv9hpnba225bu4ja.cc
